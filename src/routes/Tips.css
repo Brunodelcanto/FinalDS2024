@@ -1,0 +1,17 @@
+
+.Contenedor{
+    padding: 50px;
+    text-align: center;
+}
+.Opcion1{
+    list-style-position:inside
+}
+
+.Opcion2{
+    list-style-position:inside
+}
+
+.imagenes{
+    width: 300px;
+  height: auto;
+}

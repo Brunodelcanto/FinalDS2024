@@ -1,0 +1,99 @@
+
+
+.contacto{
+
+    padding: 50px;
+    text-align: center  ;
+}
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+  }
+
+
+.Redes{
+   display: flex;
+   list-style: none;
+}
+
+
+.formulario {
+
+   max-width: 500px;
+    margin-left: auto; 
+
+  }
+  @media (max-width: 600px) {
+    .texto,
+    input,
+    textarea {
+      margin-bottom: 10px;
+    }
+  }
+  .texto {
+    display: block;
+  }
+  input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+  }
+  .enviar {
+    padding: 12px 18px;
+    background-color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 4px; 
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+    width: 20%;
+  }
+  .enviar:hover {
+    background-color: white;
+    color: black;
+    border: solid black 1px;
+    transition: background-color 0.3s ease;
+  }
+
+  .whatsApp{
+    cursor: pointer;
+  }
+
+  .whatsApp:hover{
+    background-color: rgb(2, 160, 2);
+      border-top-left-radius: 100%; 
+      border-top-right-radius: 100%; 
+      border-bottom-right-radius: 100%; 
+      border-bottom-left-radius: 0%; 
+      transition: background-color 0.3s ease;
+  }
+
+  .instagramChe{
+    cursor: pointer;
+  }
+
+  .instagramChe:hover{
+    background-color: rgb(115, 31, 194);
+    border-radius: 25%;
+    transition: background-color 0.3s ease;
+  }
+  
+  #nombre{
+    max-width:  500px;
+  }
+
+  #email{
+    max-width:  500px;
+  }
+
+  #telefono{
+    max-width:  500px;
+  }
+
+  #mensaje{
+    max-width:  600px;
+  }
+
